@@ -1,0 +1,62 @@
+/* CSS for Panda Travel Agency Home Page - PandaTravelHome.html */
+/* Author 	Michelle Schneider
+   Date		04-Oct-2017	
+*/
+
+/* So HTML5 semantic elements can be formatted correctly *?
+article, aside, figure, footer, header, nav, section, main {
+	display: block;
+}
+
+/* entire page */
+* { 
+
+} 
+body {
+	width: 900px;
+}
+
+#logo {
+	float: left;
+	width: 400px;
+	height: 250px;
+}
+
+main {
+	float: left;
+	width: 48%;
+	text-align: center;
+}
+
+aside {
+	width: 50%;
+	float: right;
+	text-align: center;		
+
+}
+
+h3 {
+	text-decoration: underline;
+}
+
+ul {
+	padding-right: 5px;
+	padding-bottom: 5px;
+	list-style-type: circle;
+	font-size: 95%;
+	text-align: left;
+}
+
+li {
+	font-size: 120%;
+	padding-bottom: 7px;
+	padding-left: 10px;
+}
+
+.pink {
+	background-color: hotpink;
+}
+
+.orange {
+	background-color: orange;
+}	
