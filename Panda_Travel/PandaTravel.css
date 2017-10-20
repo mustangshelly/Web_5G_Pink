@@ -9,9 +9,9 @@ article, aside, figure, footer, header, nav, section, main {
 }
 
 /* entire page */
-* { 
+/* { 
 
-} 
+} */ 
 body {
 	width: 900px;
 	background-color: white;
