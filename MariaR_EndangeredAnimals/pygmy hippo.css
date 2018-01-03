@@ -1,0 +1,65 @@
+/*
+* Maria Rivell
+* December 11, 2017 
+* Endangered Species Project 
+*/
+
+
+/* This is the universal selector which changes the margins and padding for the entire page. */
+
+* {
+	margin: 0;
+	padding: 0;}
+
+/* Put body attributes here */
+/* This controls the width, margin, font-family, and background color of the body. */
+body { 
+	width: 1100px;
+	margin: auto;
+	font-family: Optima, sans-serif;
+	background-color: #ccffcc;}
+
+/* This puts a border at bottom of the header */
+
+header {
+	border-bottom: 3px solid black; 
+	margin: 30px;} 
+
+/* This centers the header. */
+h1 {
+	text-align: center;} 
+
+/* This creates a margin for the first image and makes it float to the left t. */
+img {
+	float: left;
+	margin: 10px;}
+
+/* This gives color to the text in the third header and gives it a margin to give space between other paragraphs */
+h3 {
+	margin-top: 1em;
+	margin-bottom: 1em;
+	color: #996633;} 
+
+/* This gives the body paragraphs margins to space the page out evenly. */
+p {
+	margin: margin: 2px 2px 2px 2px;}
+
+/* This allows all the images saves under .img1 to be in a line with the same width and height.*/
+.img1 {
+	width: 250px;
+	height: 200px;}
+	
+/* This floats the sixth picture to the right and determines the width and height of the image. */
+.img2 {
+	float: right;
+	width: 500px;
+	height: 300px;}
+
+/* This creates a top border to separate the footer and the last paragraph. */
+footer {
+	border-top: 2px solid black;
+	margin-top: 30px;} 
+
+/* This allows the last paragraph to fit next to the last image. */
+.p1 {
+	width: 910px;}
