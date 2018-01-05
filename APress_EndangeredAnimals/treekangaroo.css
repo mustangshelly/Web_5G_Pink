@@ -1,0 +1,67 @@
+/*
+* Abby Press
+* december 11, 2017 
+* tree kangaroo 
+*/
+
+
+/* The universal selector */
+
+
+body {font-family: Arial, Helvetica, sanc-serif;
+		 background-color: lightpink;
+		 font-size: 95%;
+		 width: 950px; 
+		 margin: auto; }
+									/* this is the beginning of my header */	 
+header {
+	     text-align: center; 
+	     border-bottom: 3px solid dimgrey;
+}
+
+p {background-color: lightpink;
+		color: royalblue;				/*this is where the bulk of the webpage if */
+		font-size: 95%;}
+	
+h1 {font-family: Arial, Helvectica, sans-serif;
+		font-weight: bold; 
+		color: gray;
+		font-size: 200%;			/* this is my title */
+		background-color: lightpink;
+		margin: 15px 0; }
+			
+h2 {font-family: Arial, Helvectica, sans-serif;
+		font-weight: bold; 
+		color: gray;				/* this is where my paragraphs are */
+		font-size: 200%;
+		background-color: lightpink;
+		margin: 15px 0;		
+		clear: left;}
+			
+									/* if you click on the links they bring you to a 
+									website, and when you hover the mouse on them they 
+									become larger */
+a:link {
+		color: blue;}
+a:hover, a:focus {
+		color: fuchsia; 
+		font-size: 130%;}
+	
+footer { 							/* this is the footer of my webpage*/ 
+		color: blue; 
+  		border-top:2px solid dimgrey;
+   		font-size: 80%; }
+	
+ 
+img {	float: left; 			    /* top picture */
+	 	width:400px; 
+		height:200px;
+	    border: 1px dashed black;
+	    padding: 10px;
+	    margin: .0em 1em .5em .5em; }
+
+.square { height:100px;   /* all five pictures*/
+		  width:140px;
+		  padding: 10px;
+		  margin: .0em 1em .5em .5em;
+		  border: none; }
