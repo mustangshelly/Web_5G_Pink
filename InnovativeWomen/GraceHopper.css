@@ -1,0 +1,110 @@
+/* M. Schneider */
+/* Three Column Template */
+/* 28-Dec-2017 */
+
+* { 
+    margin: 0;
+    padding: 0; }
+
+body {
+    width: 98%;
+    background-color: #FDF2E9;
+    margin: auto;
+    font-family: arial, helvetica, sans-serif; }
+
+header { 
+    padding-top: 10px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid crimson; 
+    background-color: powderblue; }
+
+#sidebarA {
+    width: 15%;
+    height: 500px;     
+    float: left;  
+    text-align: center;
+    color: navy;
+    border-right: 2px solid crimson;
+    border-left: 2px solid crimson; }
+
+.sides_h1 {
+    color: navy; 
+    text-decoration: underline;
+    font-family: "times new roman", serif; 
+    margin-top: 20px;
+    margin-bottom: 10px; }
+
+.sides_p {
+    margin-bottom: 15px;
+    margin-right: 7px;
+    margin-left: 7px; }
+
+main {
+    width: 60%;
+    float: left; 
+    margin-left: 30px; 
+    text-align: justify; 
+    font-size: 11pt; }
+
+p {
+    margin-bottom: 7px; }
+
+h1 {
+    color: navy; 
+    font-family: "times new roman", serif; 
+    margin-top: 5px;
+    margin-bottom: 5px; }
+
+#sidebarB {
+    width: 20%;
+    height: 500px;     
+    float: right;
+    text-align: center;
+    color: navy;
+    border-right: 2px solid crimson;
+    border-left: 2px solid crimson; }
+
+footer {
+    clear: both; 
+    border-top: 2px solid crimson; }
+
+.foot_p {
+    font-size: 80%;
+    text-indent: 25px; }
+
+.foot_h1 {
+    margin: 10px; }
+
+#disclaimer {
+    float: right;
+    text-style: bold;
+    color: crimson; 
+    margin: 5px; }
+
+.center_it {
+    text-align: center; }
+
+#imgRight {
+    float: right;
+    width: 100px;
+    height: 140px;
+    border: 2px solid navy;
+    margin: 10px 15px; }
+
+#grace_left {
+    float: left; 
+    width: 100px;
+    height: 120px; 
+    border: 2px solid navy; 
+    margin: 10px 20px 5px 5px; }
+
+#doodle {
+    height: 65px;
+    width: 175px;
+    border: 1px solid black; }
+
+blockquote {
+    font-style: italic; 
+    font-weight: bold;
+    margin-right: 15px; 
+    margin-left: 15px; }
